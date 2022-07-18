@@ -1,3 +1,9 @@
+'''
+space complexity o(n^2)
+time complexity o(n^2)
+'''
+
+
 def dynamicArray(n, queries):
     seq = [[] for _ in range(n)]
     last_answer = 0
