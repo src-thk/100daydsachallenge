@@ -1,3 +1,14 @@
+'''
+worst case:
+    space complexity o(n^2)
+    time complexity o(n)
+
+best case:
+    space complexity o(logn)
+    time complexity o(nlogn)
+'''
+
+
 def quick_sort(arr, l, r):
     if l >= r:
         return
